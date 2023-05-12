@@ -90,7 +90,7 @@ export default function Home() {
               bg="bg-light-info text-into"
               title="Sales"
               subtitle="Baby and Mother health"
-              earning="72"
+              earning="67"
               icon="bi bi-bag"
             />
           </Col>
