@@ -11,6 +11,11 @@ const navigation = [
     icon: "bi bi-speedometer2",
   },
   {
+    title: "Home",
+    href: "/ui/home",
+    icon: "bi bi-house",
+  },
+  {
     title: "Music",
     href: "/ui/alerts",
     icon: "bi bi-bell",
@@ -102,22 +107,22 @@ const Sidebar = ({ showMobilemenu }) => {
             </NavItem>
           ))}
           <Button
-            color="secondary"
+            color="success"
             tag="a"
             target="_blank"
             className="mt-3"
-            href="https://www.wrappixel.com/templates/xtreme-next-js-free-admin-template/"
+            href="https://api.whatsapp.com/send?phone=+916381559549&amp;text=&amp;source=&amp;data="
           >
-            Download Free
+            Whatsapp 
           </Button>
           <Button
             color="danger"
             tag="a"
             target="_blank"
             className="mt-3"
-            href="https://www.wrappixel.com/templates/xtreme-react-redux-admin/?ref=33"
+            href=""
           >
-            Upgrade To Pro
+            Ambulance Alert
           </Button>
         </Nav>
       </div>

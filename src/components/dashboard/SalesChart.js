@@ -7,11 +7,11 @@ const SalesChart = () => {
   const chartoptions = {
     series: [
       {
-        name: "Iphone 13",
+        name: "Baby Health",
         data: [0, 31, 40, 28, 51, 42, 109, 100],
       },
       {
-        name: "Oneplue 9",
+        name: "Mother Health",
         data: [0, 11, 32, 45, 32, 34, 52, 41],
       },
     ],
@@ -48,9 +48,9 @@ const SalesChart = () => {
   return (
     <Card>
       <CardBody>
-        <CardTitle tag="h5">Sales Summary</CardTitle>
+        <CardTitle tag="h5">Overall Health</CardTitle>
         <CardSubtitle className="text-muted" tag="h6">
-          Yearly Sales Report
+          Baby and Mother Health
         </CardSubtitle>
         <Chart
           type="area"

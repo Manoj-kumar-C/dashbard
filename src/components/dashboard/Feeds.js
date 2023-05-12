@@ -11,21 +11,21 @@ import {
 
 const FeedData = [
   {
-    title: 'Cras justo odio',
+    title: 'Latest consultant ',
     icon: 'bi bi-bell',
     color: 'primary',
-    date: '6 minute ago',
+    date: '4 days ago',
     id: 1,
   },
   {
-    title: 'New user registered.',
+    title: 'Dr.Shalini is available',
     icon: 'bi bi-person',
     color: 'info',
-    date: '6 minute ago',
+    date: '15 minute ago',
     id: 2,
   },
   {
-    title: 'Server #1 overloaded.',
+    title: 'Consult at near hospitals',
     icon: 'bi bi-hdd',
     color: 'danger',
     date: '6 minute ago',
@@ -39,14 +39,14 @@ const FeedData = [
     id: 4,
   },
   {
-    title: 'Cras justo odio',
+    title: 'Appointment Remainder',
     icon: 'bi bi-bell',
     color: 'dark',
     date: '6 minute ago',
     id: 5,
   },
   {
-    title: 'Server #1 overloaded.',
+    title: 'Track your Health',
     icon: 'bi bi-hdd',
     color: 'warning',
     date: '6 minute ago',
@@ -58,9 +58,9 @@ const Feeds = () => {
   return (
     <Card>
       <CardBody>
-        <CardTitle tag="h5">Feeds</CardTitle>
+        <CardTitle tag="h5">Notofications</CardTitle>
         <CardSubtitle className="mb-2 text-muted" tag="h6">
-          Widget you can use
+          Latest Update for you 
         </CardSubtitle>
         <ListGroup flush className="mt-4">
           {FeedData.map((feed) => (
